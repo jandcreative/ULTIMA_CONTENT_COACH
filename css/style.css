@@ -108,6 +108,27 @@ li {
     padding-right: 0;
 }
 
+#section-info ul {
+    font-size: 0;
+    margin: 0;
+    max-width: 960px;
+    padding: 0;
+    width: 100%;
+}
+
+.info_boxes li {
+    display: inline-block;
+    max-width: 300px;
+    padding-right: 15px;
+    vertical-align: top;
+    width: 100%;
+}
+
+#section-info li:nth-child(3n){
+    padding-right: 0;
+}
+
+
 .content_text{
     max-width: 960px;
     width: 100%;
