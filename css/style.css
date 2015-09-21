@@ -1,56 +1,167 @@
 
-@font-face {
-    font-family: "hermesregular";
-    font-style: normal;
-    font-weight: normal;
-    src: url("hermes-regular-webfont_new.eot?#iefix") format("embedded-opentype"), url("hermes-regular-webfont_new.woff") format("woff"), url("hermes-regular-webfont_new.ttf") format("truetype"), url("hermes-regular-webfont_new.svg#hermesregular") format("svg");
-}
-@font-face {
-    font-family: "hermesblack";
-    font-style: normal;
-    font-weight: normal;
-    src: url("hermes-black-webfont_new.eot?#iefix") format("embedded-opentype"), url("hermes-black-webfont_new.woff") format("woff"), url("hermes-black-webfont_new.ttf") format("truetype"), url("hermes-black-webfont_new.svg#hermesregular") format("svg");
-}
-@font-face {
-    font-family: "hermesbold";
-    font-style: normal;
-    font-weight: normal;
-    src: url("hermes-bold-webfont_new.eot?#iefix") format("embedded-opentype"), url("hermes-bold-webfont_new.woff") format("woff"), url("hermes-bold-webfont_new.ttf") format("truetype"), url("hermes-bold-webfont.svg#hermesregular") format("svg");
-}
-@font-face {
-    font-family: "hermesthin";
-    src: url("hermes-thin-webfont_new.eot") format("embedded-opentype"), url("hermes-thin-webfont_new.woff") format("woff"), url("hermes-thin-webfont_new.ttf") format("truetype"), url("hermes-thin-webfont_new.svg#HermesThin") format("svg");
-}
-
-.node-type-page-spot #page {
-    background-color: #cfbc9c;
-}
-
-#belt-top .belt-top-max-width {
+.content img{
     max-width: 960px;
-}
-
-#belt-top .belt-top-max-width {
-    margin: 0 auto;
-    position: relative;
-    text-align: right;
     width: 100%;
 }
 
-#page {
-    margin: 0 auto;
-    padding-top: 119px;
-    position: relative;
-    width: 100%;
-    z-index: 0;
+h2 {
+    border-bottom: 1px solid #86632e;
+    border-top: 1px solid #86632e;
+    color: #86632e;
+    font-family: "PT Serif Caption",serif;
+    font-size: 30px;
+    margin: 0 auto 30px;
+    max-width: 600px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    text-align: center;
+    width: auto;
 }
 
-#navigation .cbp-hrmenu {
+#section-content .content_txt p:first-child {
+    color: #000;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 30px 0 20px 0;
+    text-align: left;
+}
+
+h4{
+    color: #000;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 20px;
+}
+
+h5 {
+    color: #fff;
+    display: block;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 8px 0;
+}
+
+p{
+    color: #000;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    padding: 7px 0;
+    text-align: left;
+}
+
+ul{
+    padding-top: 10px;
+}
+
+li {
+    color: #000;
+    cursor: pointer;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    list-style: outside url("img/img_bullet_listado.png") disc;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+#section-redes {
     height: auto;
+    min-height: 500px;
+}
+
+.redes {
+    background: #cfbc9c url("http://www.affinity-petcare.com/ultima/sites/all/themes/custom/ultima/img/main_menu_footer_bg.gif") repeat-x scroll 0 top;
+    height: auto;
+    width: 100%;
+}
+
+#section-redes ul {
+    display: inline-block;
+    font-size: 0;
+    margin: 0;
+    max-width: 300px;
+    padding: 0 10px 0 0;
+    vertical-align: top;
+    width: 100%;
+}
+
+#section-redes ul:last-child {
+    padding: 0;
+}
+
+#section-redes li {
+    display: block;
+    vertical-align: top;
+}
+
+#section-redes li:nth-child(3n){
+    padding-right: 0;
+}
+
+.content_text{
+    max-width: 960px;
+    width: 100%;
+}
+
+.box_net{
     position: relative;
 }
-.cbp-hrmenu {
-    background-color: #b19460;
-    height: 70px;
+
+.alone_post{
+    position: relative;
+}
+
+.alone_post p {
+    color: #fff;
+    padding: 10px;
+}
+
+.post {
+    bottom: 4px;
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    vertical-align: bottom;
     width: 100%;
+}
+
+.instagram {
+    background-color: #010101;
+}
+
+.twitter{
+    background-color: #00baff;
+}
+
+.facebook{
+    background-color: #103b85;
+}
+
+.box_net img {
+    max-width: 300px;
+    width: 100%;
+}
+
+.post > img{
+    width: auto;
+}
+
+.post p {
+    color: #fff;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0;
+    padding: 10px 8px;
 }
