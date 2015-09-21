@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: "hermesregular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("hermes-regular-webfont_new.eot?#iefix") format("embedded-opentype"), url("hermes-regular-webfont_new.woff") format("woff"), url("hermes-regular-webfont_new.ttf") format("truetype"), url("hermes-regular-webfont_new.svg#hermesregular") format("svg");
+}
+@font-face {
+    font-family: "hermesblack";
+    font-style: normal;
+    font-weight: normal;
+    src: url("hermes-black-webfont_new.eot?#iefix") format("embedded-opentype"), url("hermes-black-webfont_new.woff") format("woff"), url("hermes-black-webfont_new.ttf") format("truetype"), url("hermes-black-webfont_new.svg#hermesregular") format("svg");
+}
+@font-face {
+    font-family: "hermesbold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("hermes-bold-webfont_new.eot?#iefix") format("embedded-opentype"), url("hermes-bold-webfont_new.woff") format("woff"), url("hermes-bold-webfont_new.ttf") format("truetype"), url("hermes-bold-webfont.svg#hermesregular") format("svg");
+}
+@font-face {
+    font-family: "hermesthin";
+    src: url("hermes-thin-webfont_new.eot") format("embedded-opentype"), url("hermes-thin-webfont_new.woff") format("woff"), url("hermes-thin-webfont_new.ttf") format("truetype"), url("hermes-thin-webfont_new.svg#HermesThin") format("svg");
+}
+
+.node-type-page-spot #page {
+    background-color: #cfbc9c;
+}
+
+#belt-top .belt-top-max-width {
+    max-width: 960px;
+}
+
+#belt-top .belt-top-max-width {
+    margin: 0 auto;
+    position: relative;
+    text-align: right;
+    width: 100%;
+}
+
+#page {
+    margin: 0 auto;
+    padding-top: 119px;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+#navigation .cbp-hrmenu {
+    height: auto;
+    position: relative;
+}
+.cbp-hrmenu {
+    background-color: #b19460;
+    height: 70px;
+    width: 100%;
+}
