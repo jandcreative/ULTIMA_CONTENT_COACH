@@ -90,7 +90,7 @@ li {
     display: inline-block;
     font-size: 0;
     margin: 0;
-    max-width: 300px;
+    max-width: 31%;
     padding: 0 10px 0 0;
     vertical-align: top;
     width: 100%;
@@ -207,6 +207,21 @@ li {
     width: auto;
 }
 
+.alone_post .icon_social {
+    display: inline-table;
+    padding: 10px 0 0 10px;
+    vertical-align: top;
+    width: auto;
+}
+
+.alone_post .txt {
+    display: inline-table;
+    vertical-align: top;
+    width: 80%;
+}
+
+
+
 h6 {
     border-bottom: 1px solid #fff;
     color: #fff;
@@ -254,4 +269,24 @@ h6 {
     background: #cfbc9c url("http://www.affinity-petcare.com/ultima/sites/all/themes/custom/ultima/img/main_menu_footer_bg.gif") repeat-x scroll 0 top;
     height: auto;
     width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+
+
+#section-redes ul {
+    max-width: 46%;
+}
+
+.box_net img {
+    max-width: 100%;
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 640px) {
+
+#section-redes ul {
+    max-width: 100%;
+}
 }
