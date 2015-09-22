@@ -47,6 +47,8 @@ h5 {
     font-weight: bold;
     line-height: 20px;
     padding: 8px 0;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 p{
@@ -76,7 +78,6 @@ li {
 
 #section-redes {
     height: auto;
-    min-height: 500px;
 }
 
 .redes {
@@ -116,6 +117,11 @@ li {
     width: 100%;
 }
 
+.content_txt{
+    padding-bottom: 50px;
+    height: auto;
+}
+
 .info_boxes li {
     display: inline-block;
     max-width: 300px;
@@ -150,22 +156,46 @@ li {
 .post {
     bottom: 4px;
     height: auto;
-    opacity: 0.7;
     position: absolute;
     vertical-align: bottom;
     width: 100%;
 }
 
+.post .icon_social {
+    display: inline-table;
+    padding: 10px 0 0 10px;
+    vertical-align: top;
+    width: auto;
+}
+
+.post .txt {
+    display: inline-table;
+    vertical-align: top;
+    width: 80%;
+}
+
+.post span {
+    font-weight: 600;
+}
+
 .instagram {
-    background-color: #010101;
+    background-color: #43362a;
+    opacity: 0.85;
 }
 
 .twitter{
     background-color: #00baff;
+    opacity: 0.7;
 }
 
 .facebook{
     background-color: #103b85;
+    opacity: 0.7;
+}
+
+.info_boxes .post{
+     background-color: #000000;
+     opacity: 0.55;
 }
 
 .box_net img {
@@ -177,12 +207,51 @@ li {
     width: auto;
 }
 
+h6 {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0 8px;
+    padding: 10px 0 8px;
+}
+
+.label {
+    color: #fff;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 32px;
+    left: -2px;
+    position: absolute;
+    text-transform: uppercase;
+    width: 72px;
+}
+
+.cat {
+    background: rgba(0, 0, 0, 0) url("img/img_label_cat.png") no-repeat scroll 0 0;
+    padding: 7px 10px 0;
+}
+
+.dog {
+    background: rgba(0, 0, 0, 0) url("img/img_label_dog.png") no-repeat scroll 0 0;
+    padding: 7px 8px;
+}
+
+
 .post p {
     color: #fff;
     font-family: "Ubuntu",sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 400;
     line-height: 20px;
     margin: 0;
     padding: 10px 8px;
+}
+
+.presentaciones{
+    background: #cfbc9c url("http://www.affinity-petcare.com/ultima/sites/all/themes/custom/ultima/img/main_menu_footer_bg.gif") repeat-x scroll 0 top;
+    height: auto;
+    width: 100%;
 }
