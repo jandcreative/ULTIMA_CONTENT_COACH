@@ -130,11 +130,11 @@ li {
     width: 100%;
 }
 
+/*
 #section-info li:nth-child(3n){
     padding-right: 0;
 }
-
-
+*/
 .content_text{
     max-width: 960px;
     width: 100%;
@@ -271,6 +271,18 @@ h6 {
     width: 100%;
 }
 
+
+@media only screen and (max-width: 960px) {
+.info_boxes li {
+    max-width: 47%;
+}
+
+.info_boxes .box_net img {
+    max-width: 100%;
+    width: 100%;
+}
+}
+
 @media only screen and (max-width: 800px) {
 
 
@@ -284,9 +296,14 @@ h6 {
 }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 600px) {
 
 #section-redes ul {
+    max-width: 100%;
+}
+
+.info_boxes li {
+    display: block;
     max-width: 100%;
 }
 }
