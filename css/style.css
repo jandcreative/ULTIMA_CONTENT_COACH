@@ -271,6 +271,39 @@ h6 {
     width: 100%;
 }
 
+.landing{
+    background-color: #cfbc9c;
+}
+
+#section-content.landing .content_txt p:first-child {
+    text-align: center;
+    font-weight: 400;
+}
+
+#section-content.landing .content_txt p{
+    text-align: center;
+    width: 80%;
+    margin:0 auto;
+}
+.content_search{
+    text-align: center;
+    padding-bottom: 50px
+}
+
+.content_search input {
+    background: #fff url("img/img_icon_search.png") no-repeat scroll right center;
+    color: #999999;
+    cursor: pointer; ;
+    border: none;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 18px;
+    height: 45px;
+    max-width: 400px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+
 
 @media only screen and (max-width: 960px) {
 .info_boxes li {
