@@ -117,9 +117,9 @@ li {
     width: 100%;
 }
 
-.content_txt{
-    padding-bottom: 50px;
+.content_txt {
     height: auto;
+    padding-bottom: 30px;
 }
 
 .info_boxes li {
@@ -178,10 +178,20 @@ li {
     font-weight: 600;
 }
 
+.alone_post.facebook {
+    opacity: unset;
+}
+
+.alone_post.twitter {
+    opacity: unset;
+}
+
+/*
 .instagram {
     background-color: #43362a;
     opacity: 0.85;
 }
+*/
 
 .twitter{
     background-color: #00baff;
@@ -212,6 +222,10 @@ li {
     padding: 10px 0 0 10px;
     vertical-align: top;
     width: auto;
+}
+
+.box_net span{
+    font-weight: 600;
 }
 
 .alone_post .txt {
@@ -303,7 +317,51 @@ h6 {
     width: 100%;
 }
 
+#section-info ul.pages {
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: center;
+}
 
+.pages li{
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+    color: #fff;
+    margin-right: 10px;
+    padding:5px 0 5px 0;
+}
+
+.pages li:last-child{
+    margin-right: 0px
+}
+
+.pages li.current{
+    background-color: #b19460;
+}
+
+.pages li{
+    background-color: #ddd0ba;
+}
+
+.pages li.current a {
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.pages li:first-child a{
+    padding: 5px 11px;
+}
+
+.pages li a {
+    color: #86632e;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 10px;
+    text-decoration: none;
+}
 
 @media only screen and (max-width: 960px) {
 .info_boxes li {
