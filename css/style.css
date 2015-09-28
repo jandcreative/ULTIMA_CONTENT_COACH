@@ -363,6 +363,39 @@ h6 {
     text-decoration: none;
 }
 
+.box_error {
+    background-color: #bca478;
+    margin: 0 auto;
+    max-width: 565px;
+    padding: 30px 20px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.box_error p{
+    color: #fff;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 2px solid #835f2d;
+    padding-bottom: 30px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.box_error p + p {
+    border: medium none;
+    color: #fff;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    text-align: center;
+    width: 85%;
+}
+
 @media only screen and (max-width: 960px) {
 .info_boxes li {
     max-width: 47%;
