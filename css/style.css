@@ -163,7 +163,7 @@ li {
 
 .post .icon_social {
     display: inline-table;
-    padding: 10px 0 0 10px;
+   /*padding: 10px 0 0 10px;*/
     vertical-align: top;
     width: auto;
 }
@@ -217,12 +217,45 @@ li {
     width: auto;
 }
 
-.alone_post .icon_social {
+
+ .post.facebook .icon_social {
+    background: rgba(0, 0, 0, 0) url("../img/img_icon_facebook.png") no-repeat scroll 0 0;
     display: inline-table;
-    padding: 10px 0 0 10px;
+    height: 29px;
+    margin: 10px 0 0 10px;
     vertical-align: top;
-    width: auto;
+    width: 14px;
 }
+
+.post.twitter .icon_social {
+    background: rgba(0, 0, 0, 0) url("../img/img_icon_twitter.png") no-repeat scroll 0 0;
+    display: inline-table;
+    height: 23px;
+    margin: 10px 0 0 10px;
+    vertical-align: top;
+    width: 28px;
+}
+
+
+
+ .alone_post.facebook .icon_social {
+    background: rgba(0, 0, 0, 0) url("../img/img_icon_facebook.png") no-repeat scroll 0 0;
+    display: inline-table;
+    height: 29px;
+    margin: 10px 0 0 10px;
+    vertical-align: top;
+    width: 14px;
+}
+
+.alone_post.twitter .icon_social {
+    background: rgba(0, 0, 0, 0) url("../img/img_icon_twitter.png") no-repeat scroll 0 0;
+    display: inline-table;
+    height: 23px;
+    margin: 10px 0 0 10px;
+    vertical-align: top;
+    width: 28px;
+}
+
 
 .box_net span{
     font-weight: 600;
@@ -369,7 +402,6 @@ h6 {
     max-width: 565px;
     padding: 30px 20px 20px;
     text-align: center;
-    width: 100%;
 }
 
 .box_error p{
